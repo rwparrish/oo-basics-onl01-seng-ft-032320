@@ -20,8 +20,8 @@ class Shoe
   attr_accessor :condition
   
   def cobble
-    @cobble = condition
-    condition = "new"
+    @cobble
+    @condition = "new"
     
     puts "Your shoe is as good as new!"
   end
