@@ -15,9 +15,5 @@ class Shoe
     @color
   end
   
-  def size=(size)
-    @size = size
-  end
-  
-  def 
+  attr_accessor :size
 end
