@@ -16,6 +16,6 @@ class Shoe
   end
   
   attr_accessor :size
-  
+  attr_accessor :material
   
 end
